@@ -1,6 +1,6 @@
 # RG Sandbox Runner
 
-> **Part of the [ResonantGenesis](https://resonant.dev-swat.com) platform** — Isolated sandbox execution service for agent code runs.
+> **Part of the [ResonantGenesis](https://dev-swat.com) platform** — Isolated sandbox execution service for agent code runs.
 
 [![Status: Production](https://img.shields.io/badge/Status-Production-brightgreen.svg)]()
 [![Port: 9001](https://img.shields.io/badge/Port-9001-orange.svg)]()
@@ -29,4 +29,4 @@ uvicorn app.main:app --host 0.0.0.0 --port 9001 --reload
 - **Volume mounts**: `/var/run/docker.sock` (Docker-in-Docker)
 
 ---
-**Organization**: [DevSwat-ResonantGenesis](https://github.com/DevSwat-ResonantGenesis) | **Platform**: [resonant.dev-swat.com](https://resonant.dev-swat.com)
+**Organization**: [DevSwat-ResonantGenesis](https://github.com/DevSwat-ResonantGenesis) | **Platform**: [dev-swat.com](https://dev-swat.com)
